@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.040" tests="57" failures="35">
+  <testsuite name="Root Suite" timestamp="2025-11-04T20:57:29" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="backToFront" timestamp="2025-11-04T20:57:29" tests="10" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.011" failures="0">
+    <testcase name="backToFront should return &quot;ohelloo&quot;" time="0.002" classname="should return &quot;ohelloo&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;abcabcabc&quot;" time="0.000" classname="should return &quot;abcabcabc&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;world&quot;" time="0.000" classname="should return &quot;world&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;llbillll&quot;" time="0.000" classname="should return &quot;llbillll&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;!one!!&quot;" time="0.000" classname="should return &quot;!one!!&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;smallString&quot;" time="0.000" classname="should return &quot;smallString&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;320933&quot;" time="0.000" classname="should return &quot;320933&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;   &quot;" time="0.000" classname="should return &quot;   &quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;&apos;&apos;&apos;&quot;" time="0.000" classname="should return &quot;&apos;&apos;&apos;&quot;">
+    </testcase>
+    <testcase name="backToFront should return &quot;&quot;" time="0.000" classname="should return &quot;&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="compareSalary" timestamp="2025-11-04T20:57:29" tests="6" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.011" failures="4">
+    <testcase name="compareSalary should return 400" time="0.003" classname="should return 400">
+      <failure message="Expected values to be loosely deep-equal:
+
+200
+
+should loosely deep-equal
+
+400" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+200
+
+should loosely deep-equal
+
+400
+    at Context.<anonymous> (test\index.js:25:18)
+    at process.processImmediate (node:internal/timers:504:21)
+
+      + expected - actual
+
+      -200
+      +400
+      ]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 0" time="0.000" classname="should return 0">
+    </testcase>
+    <testcase name="compareSalary should return 2" time="0.000" classname="should return 2">
+      <failure message="Expected values to be loosely deep-equal:
+
+1
+
+should loosely deep-equal
+
+2" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+1
+
+should loosely deep-equal
+
+2
+    at Context.<anonymous> (test\index.js:25:18)
+    at process.processImmediate (node:internal/timers:504:21)
+
+      + expected - actual
+
+      -1
+      +2
+      ]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 5349" time="0.000" classname="should return 5349">
+      <failure message="Expected values to be loosely deep-equal:
+
+1101
+
+should loosely deep-equal
+
+5349" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+1101
+
+should loosely deep-equal
+
+5349
+    at Context.<anonymous> (test\index.js:25:18)
+    at process.processImmediate (node:internal/timers:504:21)
+
+      + expected - actual
+
+      -1101
+      +5349
+      ]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 609.008888" time="0.000" classname="should return 609.008888">
+      <failure message="Expected values to be loosely deep-equal:
+
+609.008887
+
+should loosely deep-equal
+
+609.008888" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+609.008887
+
+should loosely deep-equal
+
+609.008888
+    at Context.<anonymous> (test\index.js:25:18)
+    at process.processImmediate (node:internal/timers:504:21)
+
+      + expected - actual
+
+      -609.008887
+      +609.008888
+      ]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 53492003509" time="0.000" classname="should return 53492003509">
+    </testcase>
+  </testsuite>
+  <testsuite name="compareTwoNumbers" timestamp="2025-11-04T20:57:29" tests="5" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.002" failures="1">
+    <testcase name="compareTwoNumbers should return &quot;&gt;&quot;" time="0.000" classname="should return &quot;&gt;&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;&lt;&quot;" time="0.000" classname="should return &quot;&lt;&quot;">
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+      <failure message="Expected values to be loosely deep-equal:
+
+undefined
+
+should loosely deep-equal
+
+&apos;=&apos;" type="AssertionError"><![CDATA[AssertionError [ERR_ASSERTION]: Expected values to be loosely deep-equal:
+
+undefined
+
+should loosely deep-equal
+
+'='
+    at Context.<anonymous> (test\index.js:25:18)
+    at process.processImmediate (node:internal/timers:504:21)
+
+      + expected - actual:  failed to generate Mocha diff
+]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="digitsSum" timestamp="2025-11-04T20:57:29" tests="9" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.002" failures="9">
+    <testcase name="digitsSum should return 1" time="0.000" classname="should return 1">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 7" time="0.000" classname="should return 7">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 2" time="0.000" classname="should return 2">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 6" time="0.000" classname="should return 6">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 10" time="0.000" classname="should return 10">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 33" time="0.000" classname="should return 33">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 0" time="0.000" classname="should return 0">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at digitsSum (src\digitsSum.js:7:28)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="divider" timestamp="2025-11-04T20:57:29" tests="6" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.000" failures="0">
+    <testcase name="divider should return &quot;2 0&quot;" time="0.000" classname="should return &quot;2 0&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;2 2&quot;" time="0.000" classname="should return &quot;2 2&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;4 1&quot;" time="0.000" classname="should return &quot;4 1&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;8 0&quot;" time="0.000" classname="should return &quot;8 0&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;1 1&quot;" time="0.000" classname="should return &quot;1 1&quot;">
+    </testcase>
+    <testcase name="divider should return &quot;2 1&quot;" time="0.000" classname="should return &quot;2 1&quot;">
+    </testcase>
+  </testsuite>
+  <testsuite name="evalExpr" timestamp="2025-11-04T20:57:29" tests="6" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.001" failures="6">
+    <testcase name="evalExpr should return 4" time="0.000" classname="should return 4">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return 340" time="0.000" classname="should return 340">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -20" time="0.000" classname="should return -20">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -2036" time="0.000" classname="should return -2036">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return 4252" time="0.000" classname="should return 4252">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -20372" time="0.000" classname="should return -20372">
+      <failure message="number is not defined" type="ReferenceError"><![CDATA[ReferenceError: number is not defined
+    at evalExpr (src\evalExpr.js:7:11)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumInRange" timestamp="2025-11-04T20:57:29" tests="5" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.002" failures="5">
+    <testcase name="sumInRange should return 45" time="0.001" classname="should return 45">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return 21" time="0.000" classname="should return 21">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return -125250" time="0.000" classname="should return -125250">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return -1" time="0.000" classname="should return -1">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return 55" time="0.000" classname="should return 55">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src\sumInRange.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumTwoNumbers" timestamp="2025-11-04T20:57:29" tests="6" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.002" failures="6">
+    <testcase name="sumTwoNumbers should return 16" time="0.000" classname="should return 16">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 458" time="0.000" classname="should return 458">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return -15" time="0.000" classname="should return -15">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 0" time="0.000" classname="should return 0">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return -0.9" time="0.001" classname="should return -0.9">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 215042314" time="0.000" classname="should return 215042314">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src\sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="volumeCone" timestamp="2025-11-04T20:57:29" tests="4" file="C:\Users\geras\progr.vs\js-ts-tasks\test\index.js" time="0.002" failures="4">
+    <testcase name="volumeCone should return 20.94" time="0.000" classname="should return 20.94">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 314.16" time="0.000" classname="should return 314.16">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 7.33" time="0.000" classname="should return 7.33">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 28807927.11" time="0.000" classname="should return 28807927.11">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src\volumeCone.js:8:9)
+    at Context.<anonymous> (test\index.js:24:27)
+    at process.processImmediate (node:internal/timers:504:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

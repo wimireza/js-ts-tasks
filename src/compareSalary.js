@@ -1,3 +1,5 @@
+const { min } = require("mocha/lib/reporters");
+
 /**
  * Compares three salaries and find the difference between the max and the min
  * @param {number} firstSalary
@@ -6,5 +8,15 @@
  * @returns {number}
  */
 module.exports.compareSalary = function compareSalary(firstSalary, secondSalary, thirdSalary) {
-  throw new Error('Not implemented');
+
+ 
+
+ const maxSalary=Math.max(firstSalary,secondSalary,thirdSalary);
+ const minSalary=Math.min(firstSalary,secondSalary,thirdSalary)
+
+return(maxSalary-minSalary)
+
+
 };
+
+// работает 

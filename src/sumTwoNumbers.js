@@ -5,5 +5,15 @@
  * @returns {number}
  */
 module.exports.sumTwoNumbers = function sumTwoNumbers(firstNumber, secondNumber) {
-  throw new Error('Not implemented');
+
+
+    firstNumber = Number(String(firstNumber).trim().replace(/s+/g, ''));
+    secondNumber = Number(String(secondNumber).trim().replace(/s+/g, ''));
+   
+    let sum = firstNumber + secondNumber;
+    return sum;
+
+     
 };
+
+// некорректно обрабатывает третью строку с пробелами 
