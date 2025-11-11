@@ -13,4 +13,3 @@ module.exports.divider = function divider(n, k) {
 
 };
  
-// РАБОТАЕТ!! 

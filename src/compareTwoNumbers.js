@@ -18,4 +18,4 @@ module.exports.compareTwoNumbers = function compareTwoNumbers(firstNumber, secon
 
 };
 
-// работает!
+

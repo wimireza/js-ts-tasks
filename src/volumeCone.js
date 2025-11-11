@@ -12,4 +12,3 @@ const roundVolume = volume.toFixed(2);
      
 
 };
-// работает 

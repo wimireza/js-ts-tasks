@@ -16,4 +16,3 @@ module.exports.sumTwoNumbers = function sumTwoNumbers(firstNumber, secondNumber)
      
 };
 
-// некорректно обрабатывает третью строку с пробелами 

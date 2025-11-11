@@ -23,4 +23,4 @@ if (typeof end === 'string') {Number.end};
     
 };
 
-// работает наконец-то
+

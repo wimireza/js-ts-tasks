@@ -13,4 +13,4 @@ module.exports.backToFront = function backToFront(str, symbolsCount) {
   return symbToPaste + str + symbToPaste
 }; 
 
-// РАБОТАЕТ! 
+

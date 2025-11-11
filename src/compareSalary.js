@@ -19,4 +19,4 @@ return(maxSalary-minSalary)
 
 };
 
-// работает 
+
